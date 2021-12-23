@@ -39,15 +39,20 @@ Challenges:
 
 
 Meet requirements: 
-1. API: request weather forecase for dates
+1. API:      request weather forecase for date range
 2. One HTML:
-            there is nav bar with two tabs : "new event" and "view events" 
+            there is nav bar with two tabs : "home" "new event" and "view events" 
             when tab is selected the I will clean the innerHTML of main <div> and create new elements with JS
-3. Listeners:   DOMContentLoaded, 
-                click - switch between items in nav bar, 
-                submit - form  when create new event and with user participation
+3. Listeners:   
+            DOMContentLoaded, 
+            click - switch between items in nav bar, 
+            submit - form  when create new event and with user participation
 3.Interactivity: 
-
+            User clicks "create event" tab. 
+            The system displays a form for creating the new event
+            User fills inputs (title, start data, end data) and submit the form
+            The system removes form from the screen (clean innerHTML for this div)
+            And system displays event data on the screen
 5. Keep your code DR: do my best)). Use functions and object
 
 
