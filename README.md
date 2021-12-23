@@ -28,7 +28,27 @@ As user I can switch between events to check their attendance state
 MVP:
 1. As user I can create an event 
 2. As User I can select dates 
-3. As User I can see summary about each event 
+3. As User I can see summary about the event 
+
+
+Challenges:
+1. Combine all together and build the project from the ground
+2. Make the project look and feel professional. 
+3. Create an HTML page the way it would be easier to manipulate elements from the DOM
+4. Organized data in db.js the way it would be easier to work with it
+
+
+Meet requirements: 
+1. API: request weather forecase for dates
+2. One HTML:
+            there is nav bar with two tabs : "new event" and "view events" 
+            when tab is selected the I will clean the innerHTML of main <div> and create new elements with JS
+3. Listeners:   DOMContentLoaded, 
+                click - switch between items in nav bar, 
+                submit - form  when create new event and with user participation
+3.Interactivity: 
+
+5. Keep your code DR: do my best)). Use functions and object
 
 
 API:
