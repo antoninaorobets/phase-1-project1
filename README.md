@@ -4,7 +4,7 @@ PickTheDate app
 This web app helps friends to pick the best date to meet.
 
 A User creates an event, adds a title, and selects a range of dates to select from.
-Each user can open created event and select the days from the list when they can participate. 
+Each user can open created event and select the days from the list when they can participate. User can select more than one day.
 The system shows the weather for each day to help the user to make a decision.
 The system determines the most attendant day and shows how many people voted for it, and how many have participated
 Also, the system displays the chart with aggregated data for each day (how popular is each day). The system also displays the table when each user who voted can attend the event. 
@@ -36,23 +36,25 @@ Challenges:
 2. Make the project look and feel professional. 
 3. Create an HTML page the way it would be easier to manipulate elements from the DOM
 4. Organized data in db.js the way it would be easier to work with it
+5. Present event summary with data from each user 
 
 
 Meet requirements: 
-1. API:      request weather forecase for date range
+1. API:      request weather forecase for each day in the range
 2. One HTML:
             there is nav bar with two tabs : "home" "new event" and "view events" 
-            when tab is selected the I will clean the innerHTML of main <div> and create new elements with JS
+            when tab is selected the I will clean the innerHTML of main div and create new elements with JS
 3. Listeners:   
-            DOMContentLoaded, 
             click - switch between items in nav bar, 
-            submit - form  when create new event and with user participation
+            submit - user submits form  when create new event
+                     user submits form  with list of date they can participate on this event
+            mouseover - on the event sammary page when user points on the most popular date - in hover show the list of users who selected it
 3.Interactivity: 
             User clicks "create event" tab. 
             The system displays a form for creating the new event
             User fills inputs (title, start data, end data) and submit the form
             The system removes form from the screen (clean innerHTML for this div)
-            And system displays event data on the screen
+            The system creates event displays this event data on the screen
 5. Keep your code DR: do my best)). Use functions and object
 
 
